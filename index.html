@@ -6,9 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Game</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS -->
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div>
+                <img src="https://cdn3.iconfinder.com/data/icons/retro-tech/60/Retro_Tech_-_Flat_-_054_-_Simon_Says-512.png" alt="logo" class="logo">
+                <span>Simon Game</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 id="counter-text">Memorizza questi numeri in 10 secondi</h1>
+            <div class="numbers-container">
+                <div class="card">
+                    <span class="number">1</span>
+                </div>
+                <div class="card">
+                    <span class="number">2</span>
+                </div>
+                <div class="card">
+                    <span class="number">3</span>
+                </div>
+                <div class="card">
+                    <span class="number">4</span>
+                </div>
+                <div class="card">
+                    <span class="number">5</span>
+                </div>
+            </div>
+            <div class="numbers-container">
+                <div class="card">
+                    <input type="text" class="answer hidden">
+                </div>
+                <div class="card">
+                    <input type="text" class="answer hidden">
+                    
+                </div>
+                <div class="card">
+                    <input type="text" class="answer hidden">
+                    
+                </div>
+                <div class="card">
+                    <input type="text" class="answer hidden">
+                    
+                </div>
+                <div class="card">
+                    <input type="text" class="answer hidden">
+                </div>
+            </div>
+            <button id="confirm-btn">Conferma</button>
+        </div>
+    </main>
+
     <script src="main.js"></script>
 </body>
 

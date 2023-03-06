@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 0.8rem;
+}
+
+.logo {
+    width: 3.125rem;
+    vertical-align: middle;
+}
+
+nav div span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: .3125rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 6.25rem auto;
+    text-align: center;
+}
+
+.card {
+    width: calc(100% / 5);
+    height: 6rem;
+}
+
+.numbers-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+}
+
+.card > * {
+    padding: .625rem;
+    background-color: lightblue;
+    width: 95%;
+    height: 100%;
+    text-align: center; 
+    border-radius: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    
+}
+
+.container button {
+    margin-top: 1.25rem;
+    width: 5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.wrong-answer {
+    background-color: red;
+}
+
+.correct-answer {
+    background-color: green;
+}
